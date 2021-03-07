@@ -1,0 +1,23 @@
+.ListeProjets{
+    display:flex;
+    flex-flow: column wrap;
+
+    margin: 20px 40px 40px;
+
+    h2{
+        margin: 20px 0 20px;
+        padding: 5px 0;
+        border-bottom: 5px solid #00A37D;
+        border-top: 5px solid #00A37D;
+        border-radius: 20%;
+    }
+
+    ul{
+        list-style:none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin:0;
+        padding:0;
+    }
+}

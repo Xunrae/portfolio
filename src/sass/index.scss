@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Texturina&display=swap');
+
+Body{
+    background: rgb(12,12,83);
+    background: linear-gradient(0deg, rgb(16, 48, 66) 0%, rgba(12,12,83,1) 100%);
+    color:white;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+li{list-style:none;}
+
+h1, h2, h3{
+    font-family: Texturina;
+    letter-spacing: 0.1em;
+}
+
+a, a:visited, a:hover, a:link, a:active{
+    text-decoration:none;
+    color:white;
+}

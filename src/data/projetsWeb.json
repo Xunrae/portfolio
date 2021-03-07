@@ -1,0 +1,34 @@
+[
+    {
+        "id": "prow0001",
+        "nomFr": "Site web TIM",
+        "nomEn": "TIM website",
+        "descriptFr": "Projet dans lequel j'ai été programmeur principal et chef d'équipe. Au cours de ce travail, j'ai d'une part appris à gérer une équipe et à trouver des moyens de motiver mes collègues pour atteindre un produit final, et d'autre part j'ai approfondi mes connaissances en php. Suite à ce projet, je suis en mesure de bien communiquer efficacement, être à l'écoute de mes collègues, proposer des solutions efficaces pour que tout le monde soit productif et je suis à l'aise de travailler sur un site web complet et adaptatif.",
+        "descriptEn": "",
+        "url": ""
+    },
+    {
+        "id": "prow0002",
+        "nomFr": "Manabu",
+        "nomEn": "Manabu",
+        "descriptFr": "Manabu est une application en ligne pour apprendre à lire les hiraganas japonais. Pour ce projet, j'ai appris à utiliser la librairie Phaser pour créer un jeu sur une page web et à créer les mecaniques de base pour un questionnaire intéractif. Cette expérience m'aura rendu plus confiant pour utiliser des librairies de code et a contribué à améliorer ma vision globale des tâches à accomplir dans un projet.",
+        "descriptEn": "",
+        "url": ""
+    },
+    {
+        "id": "prow0003",
+        "nomFr": "Quiz-o-Matic",
+        "nomEn": "Quiz-o-Matic",
+        "descriptFr": "Page web statique avec laquelle j'ai appris à créer dynamiquement des éléments par javascript, changer les paramètres HTML/CSS par programmation et aussi à garder des variables en mémoire pour un usager qui revisite le site. Ce travail a beaucoup renforcé mes connaissances en programmation et m'a rendu très autonome pour faire mes recherches.",
+        "descriptEn": "",
+        "url": ""
+    },
+    {
+        "id": "prow0004",
+        "nomFr": "Premier portfolio",
+        "nomEn": "First portfolio",
+        "descriptFr": "Première ébauche de portfolio. Il s'agit d'un travail pratique final  où j'ai appris à faire des lightbox, intégrer des sons à un site web, créer et gérer une playlist par javascript et utiliser des structures de tableaux pour ordonner et chercher de l'information générer.",
+        "descriptEn": "",
+        "url": ""
+    }
+]

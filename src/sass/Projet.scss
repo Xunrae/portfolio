@@ -1,0 +1,47 @@
+.Projet{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 11px 5px #00a37d; 
+    box-shadow: 0px 0px 11px 5px #00a37d;
+    align-items: center;
+    border-radius:5px;
+    background-color: #333;
+
+    .image{
+        position:sticky;
+        z-index: 1;
+        width:400px;
+        height:300px;
+        overflow:hidden;
+        cursor:pointer;
+
+        img{
+            width: 400px;
+            height: 300px;
+            object-fit:contain;
+            background-color: #14213D;
+            border-radius: 5px 5px 0 0;
+        }
+    
+        .description{
+            position:relative;
+            padding: 15px;
+            text-align: justify;
+            transition: all 0.5s;
+            background-color: rgba(0,0,0,0.8);
+            font-size: 1.3em;
+        }
+
+        &:hover .description{
+            transform:translateY(-100%);
+        }
+    }
+    .info{
+        height:25%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
