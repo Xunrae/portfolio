@@ -1,11 +1,20 @@
 import '../sass/Banniere.scss';
-import banniereWebp from '../img/banniere.webp';
+import banniereFr from '../img/bannerFr.webp';
+import banniereEn from '../img/bannerEn.webp';
 
-export default function Banniere({text}){
+export default function Banniere({text, lang}){
+
+    var banner;
+
+    if(lang ==='fr'){
+        banner = banniereFr;
+    }
+    else{banner = banniereEn;}
+
     return(
         <div className="Banniere">
             <div className="imageBanniere">
-                <img src={banniereWebp} alt={text.ban} />
+                <img src={banner} alt={text.ban} />
             </div>
             <div className="info">
                 <h1>Antoine Côté-L'Écuyer</h1>

@@ -24,6 +24,7 @@
         list-style: none;
         display: flex;
         margin: 0 auto;
+        font-size: 1.2em;
 
         li{
             cursor:pointer;
@@ -41,10 +42,19 @@
         position: relative;
         display:flex;
         right: 30px;
+        font-size: 0.9em;
 
         li{
             list-style: none;
-            cursor:pointer;
+
+            button{
+                background-color: rgba(0,0,0,0);
+                border:none;
+                color: white;
+                font-family: 'Akaya Telivigala', cursive;
+                font-size: 1em;
+                cursor:pointer;
+            }
         }
 
         li:not(:last-of-type){

@@ -6,13 +6,24 @@ import Footer from './Footer';
 
 export default function Page() {
 
-  const textJson = require('../data/lang/fr.json');
-  let lang = "en";
+  let lang;
+  var textJson;
+
+  
+
+  if(localStorage.getItem('lang')){
+    lang = localStorage.getItem('lang');
+    textJson = require('../data/lang/'+lang+'.json');
+  }
+  else{
+    lang = 'fr'
+    textJson = require('../data/lang/fr.json');
+  }
 
   return (
-    <div className="Page" data-lang="fr">
-      <Entete text={textJson} />
-      <Banniere text={textJson} />
+    <div className="Page">
+      <Entete text={textJson} lang={lang} />
+      <Banniere text={textJson} lang={lang} />
       <ConteneurProjets text={textJson} lang={lang} />
       <Footer />
     </div>

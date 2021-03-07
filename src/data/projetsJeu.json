@@ -3,24 +3,24 @@
         "id": "proj0001",
         "nomFr": "Toxic City",
         "nomEn": "Toxic City",
-        "descriptFr": "Dans ce travail, j'ai appris les rudiments du travail de directeur technique et à me faire une vision globale d'un projet de jeu, incluant échéanciers. J'ai aussi appris à travailler avec Trello pour distribuer les tâches à mes équipiers, et à développer les mécaniques de base pour un RPG tour-par-tour. Cette expérience va me servir à faire des choix éclairés dans mes échéanciers, à garder une vue d'ensemble sur les projets à développer et à bien gérer mon temps et celui des autres, au besoin.",
-        "descriptEn": "",
+        "descriptFr": "Dans ce travail, j'ai appris le travail de directeur technique et à avoir une vision globale d'un projet de jeu. J'ai appris à travailler avec Trello pour distribuer les tâches et à développer les mécaniques pour un RPG tour-par-tour.",
+        "descriptEn": "In this project, I learned the rudiments of a technical director's work and to have a good global vision of a video game project. I also learned to work with Trello to distribute tasks, and learned how to make the mechanics for a turn-by-turn RPG.",
         "url": "https://toxiccity.netlify.app"
     },
     {
         "id": "proj0002",
         "nomFr": "Puppet Master",
         "nomEn": "Puppet Master",
-        "descriptFr": "Jeu réalisé pour le GameJam de Valleyfield en janvier 2021. Ce projet m'a appris à mieux gérer mon temps et à faire des compromis sur le travail qui est à effectuer pour respecter les échéanciers. J'ai aussi appris à faire un jeu en 2.5D dans Unity et à changer les shaders des sprites pour afficher des ombres. Dans l'avenir, ceci me permettra de bien communiquer rapidement mon avis sur ce qui est faisable dans le temps imparti, et de faire le bon choix sur les mécaniques qui peuvent être optionnelles.",
-        "descriptEn": "",
+        "descriptFr": "Jeu réalisé pour le GameJam de Valleyfield en janvier 2021. Ce projet m'a permis de mieux gérer mon temps et accepter de faire des compromis sur le travail à effectuer pour respecter les échéanciers. J'ai aussi appris à faire un jeu en 2.5D dans Unity et à changer les shaders des sprites pour afficher des ombres.",
+        "descriptEn": "Game made for the GameJam of Valleyfield in january 2021. This project made me get a better grip on my time management and made me accept to compromise on tasks to respect the deadlines. I also learned how to make a 2.5D game in Unity and how to change shaders to allow sprites to have shadows.",
         "url": "https://csharkspuppetmaster.netlify.app"
     },
     {
         "id": "proj0003",
         "nomFr": "Projet RV",
         "nomEn": "VR project",
-        "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity.",
-        "descriptEn": "Interactive environment in which I learned the basics of making a VR game in Unity.",
+        "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity. Lien à venir!",
+        "descriptEn": "Interactive environment in which I learned the basics of making a VR game in Unity. Link coming soon!",
         "url": ""
     },
     {
@@ -28,7 +28,7 @@
         "nomFr": "Helicoptère",
         "nomEn": "Helicopter",
         "descriptFr": "Dans cet exercice, j'ai appris à programmer dans un environnement 3D, rajouter des mécaniques et des effets de particules sur des objets à distance, contrôler plusieurs caméras, créer un terrain 3D dans unity avec des assets importés, changer les textures et beaucoup de notions de programmation intermédiaires en C#. Ces acquis ont approfondi à la fois ma capacité d'intégration et de programmation.",
-        "descriptEn": "",
+        "descriptEn": "In this exercise, I learned how to program in a 3D environment, how to add mechanics and particle effects to distant objects, control multiple cameras, create a 3D terrain using Unity with imported assets, change textures and a good deal of intermediate C# notions. Those notions gave me deeper knowledge of both programming and integration.",
         "url": "https://drive.google.com/drive/folders/1foH_1QJC62TtO8LakX_TVt2B8Zamz0wz?usp=sharing"
     },
     {
@@ -36,7 +36,7 @@
         "nomFr": "Exile Démoniaque",
         "nomEn": "Demonic Exile",
         "descriptFr": "Projet dans lequel j'ai appris à intégrer divers éléments dans Unity, assembler, lier et programmer des animations, utiliser les mécaniques de Unity (colliders, gravité, contraintes, etc), changer de scènes, instantier des objets, ajuster des variables globales, afficher un UI, etc. Cette expérience m'a donné beaucoup d'outils nécessaires au métier d'intégrateur en jeux 2D.",
-        "descriptEn": "",
+        "descriptEn": "Project in which I learned to integrate diverse elements in Unity, assemble, link and program animations, use Unity's built-in mechanics, change scenes, instantiate objects, adjust global variables, show an UI, etc. This experience gave me alot of tools to become a 2D game integrator.",
         "url": "https://drive.google.com/file/d/1u0wSouqKolMyzhB3c8I1guWxieiSthlq/view?usp=sharing"
     }
 ]
