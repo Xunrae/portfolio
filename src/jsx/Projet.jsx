@@ -35,7 +35,7 @@ export default function Projet({id, nomFr, nomEn, descFr, descEn, url, lang}){
         <li className="Projet">
             <a target={targetBlank} href={url}  rel="noreferrer" className={classUrl}>
                 <div className={'image ' + classUrl}>
-                    <img src={'../img/' + id + '.webp'} alt={nom}>
+                    <img src={`img/${id}.webp`} alt={nom}>
                     </img>
                     <p className="description">{desc}</p>
                 </div>
