@@ -3,11 +3,14 @@ import tabProjetsJeu from '../data/projetsJeu.json';
 import tabProjetsWeb from '../data/projetsWeb.json';
 import Projet from './Projet.jsx';
 
-export default function ListeProjets(){
+export default function ListeProjets({text, lang}){
+
+    // let descript = (lang)=> lang == fr ? {proj.descriptFr} : {proj.descriptEn}
+
     return(
             <div className="ListeProjets">
-                <h2>Jeux</h2>
-                <ul>
+                <h2>{text.jeu}</h2>
+                <ul className="jeux">
                     {
                         tabProjetsJeu.map((proj) => 
                             <Projet id={proj.id} nom={proj.nomFr} desc={proj.descriptFr} url={proj.url} />
@@ -15,7 +18,7 @@ export default function ListeProjets(){
                     }
                 </ul>
                 
-                <h2>Sites web</h2>
+                <h2>{text.sit}</h2>
                 <ul className="sites">
                     {
                         tabProjetsWeb.map((prow) => 

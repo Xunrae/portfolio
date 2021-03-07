@@ -6,7 +6,7 @@ export default function Projet({id, nom, desc, url}){
 
     return (
         <li className="Projet">
-            <a target={targetBlank} href={url}>
+            <a target="_blank" href={url}>
                 <div className="image">
                     <img src={'../img/' + id + '.webp'} alt={nom}>
                     </img>
