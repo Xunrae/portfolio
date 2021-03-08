@@ -28,7 +28,7 @@
         "nomFr": "Premier portfolio",
         "nomEn": "First portfolio",
         "descriptFr": "Première ébauche de portfolio. Il s'agit d'un travail pratique final où j'ai appris à faire des lightbox, intégrer des sons à un site web, créer et gérer une playlist par javascript et utiliser des structures de tableaux pour ordonner et chercher de l'information générer.",
-        "descriptEn": "First attempt at making a portfolio. This was a final assignment in second semester where I learned to make lightboxes, integrated sounds to a websitee, create and generate playlists with javascript and use array structures to order and find generated information.",
+        "descriptEn": "First attempt at making a portfolio. This was a final assignment in second semester where I learned to make lightboxes, integrate sounds to a website, create and generate playlists with javascript and use array structures to order and find generated information.",
         "url": "https://angry-goldberg-85e632.netlify.app/"
     }
 ]
