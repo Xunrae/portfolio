@@ -50,6 +50,24 @@
     .noPointer{cursor: default;}
 }
 
+@media screen and (max-width: 1500px){
+    .Projet{
+        width: 325px;
+        height: 325px;
+        margin: 14px;
+        .image{
+                width: 325px;
+                height: 225px;
+                
+                img{
+                    width: 325px;
+                    height: 225px;
+                }
+                .description{font-size: 1em;}
+            }
+        }
+}
+
 @media screen and (max-width: 700px){
     .Projet{
         width: 300px;
@@ -62,7 +80,7 @@
                     width: 300px;
                     height: 200px;
                 }
-                .description{font-size: 1em;}
+                .description{font-size: 0.9em;}
             }
         }
 }
