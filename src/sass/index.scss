@@ -10,6 +10,28 @@ Body{
     background: linear-gradient(0deg, rgb(16, 48, 66) 0%, rgba(12,12,83,1) 100%);
     color:white;
     font-family: 'Akaya Telivigala', cursive;
+
+    // css de la barre de défilement
+    /* largeur de la barre entière */
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    /* le rail qui contient le bouton */
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0px 0px 3px black;
+    }
+    
+    /* le bouton */
+    &::-webkit-scrollbar-thumb {
+        box-shadow: inset 2px 0px 3px black;
+        background: #00a37d;
+    }
+    
+    /* quand on hover sur le bouton */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #03dba9; 
+    }
 }
 
 li{list-style:none;}
