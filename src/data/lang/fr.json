@@ -1,9 +1,12 @@
 {
     "acc": "Accueil",
-    "pro": "Projets",
-    "plu": "Plus",
+    "pro": "Jeux",
+    "plu": "Sites web",
     "ban": "Bannière Programmeur/Intégrateur",
-    "desc": "",
+    "cont": "Ma contribution :",
     "jeu": "Jeux",
-    "sit": "Sites web"
+    "sit": "Sites web",
+    "git": "Page github du projet",
+    "link": "Lien vers le projet",
+    "exe": "Télécharger l'exécutable"
 }

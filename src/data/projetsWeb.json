@@ -3,32 +3,36 @@
         "id": "prow0001",
         "nomFr": "Site web TIM",
         "nomEn": "TIM website",
+        "contribFr": "Gestion, php, js, scss",
+        "contribEn": "Management, php, js, scss",
         "descriptFr": "Projet dans lequel j'ai été programmeur principal et chef d'équipe. Dans celui-ci, j'ai appris à gérer une équipe, trouver des moyens de motiver l'équipe, et j'ai approfondi mes connaissances en php. Suite à ce projet, je suis en mesure de bien communiquer efficacement, être à l'écoute de mes collègues, proposer des solutions efficaces pour que tout le monde soit productif et je suis à l'aise de travailler sur un site web complet et adaptatif.",
         "descriptEn": "Project in whicch I was lead programmer and project leader. In this one, I learned to manage a team, find ways to motivate the team, and gain deeper knowledge of php. Following this project, I can communicate well and efficiently in a team, be attentive to my colleagues, suggest efficient solutions to stay productive and I'm comfortable with creating a complete adaptative website from scratch.",
-        "url": ""
+        "url": "",
+        "git": "https://github.com/Xunrae/ProjetTimV2",
+        "build": ""
     },
     {
         "id": "prow0002",
         "nomFr": "Manabu",
         "nomEn": "Manabu",
+        "contribFr": "Mécaniques principales, html, js, css, Phaser",
+        "contribEn": "Principal mechanics, html, js, css, Phaser",
         "descriptFr": "Manabu est une application en ligne pour apprendre à lire les hiraganas japonais. Pour ce projet, j'ai appris à utiliser la librairie Phaser pour créer un jeu sur une page web et à créer les mecaniques de base pour un questionnaire intéractif. Cette expérience m'aura rendu plus confiant pour utiliser des librairies de code et a contribué à améliorer ma vision globale des tâches à accomplir dans un projet.",
         "descriptEn": "Manabu is a web application made to learn japanese hiraganas. For this project, I learned to use the Phaser library to make a game on a web page and create the basic mechanics for an interactive quiz. This experience made me more confident with the use of external code libraries and contributed to improve my global vision of tasks to accomplish in a project.",
-        "url": "https://manabu.netlify.app/"
+        "url": "https://manabu.netlify.app/",
+        "git": "https://github.com/Xunrae/Manabu",
+        "build": ""
     },
     {
         "id": "prow0003",
         "nomFr": "Quiz-o-Matic",
         "nomEn": "Quiz-o-Matic",
+        "contribFr": "html, js, css",
+        "contribEn": "html, js, css",
         "descriptFr": "Page web statique avec laquelle j'ai appris à créer dynamiquement des éléments par javascript, changer les paramètres HTML/CSS par programmation et à garder des variables en mémoire dans le local storage et data-set. Ce travail a beaucoup renforcé mes connaissances en programmation et m'a rendu très autonome pour faire mes recherches.",
         "descriptEn": "Static web page with which I learned to dynamically create elements using javascript, change the HTML/CSS parameters with programming and to use the local storage and data-set. This work greatly deepened my knowledge of programming and made me very autonomous to do my own research.",
-        "url": "https://acl-quiz-o-matic.netlify.app/"
-    },
-    {
-        "id": "prow0004",
-        "nomFr": "Premier portfolio",
-        "nomEn": "First portfolio",
-        "descriptFr": "Première ébauche de portfolio. Il s'agit d'un travail pratique final où j'ai appris à faire des lightbox, intégrer des sons à un site web, créer et gérer une playlist par javascript et utiliser des structures de tableaux pour ordonner et chercher de l'information générer.",
-        "descriptEn": "First attempt at making a portfolio. This was a final assignment in second semester where I learned to make lightboxes, integrate sounds to a website, create and generate playlists with javascript and use array structures to order and find generated information.",
-        "url": "https://angry-goldberg-85e632.netlify.app/"
+        "url": "https://acl-quiz-o-matic.netlify.app/",
+        "git": "",
+        "build": ""
     }
 ]

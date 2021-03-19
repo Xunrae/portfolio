@@ -15,12 +15,12 @@ export default function Banniere({text, lang}){
         <div className="Banniere">
             <div className="imageBanniere">
                 <img src={banner} alt={text.ban} />
-            </div>
-            <div className="info">
                 <h1>Antoine Côté-L'Écuyer</h1>
+            </div>
+            {/* <div className="info">
                 <p className="description">{text.desc}</p>
                 
-            </div>
+            </div> */}
         </div>
     );
 }

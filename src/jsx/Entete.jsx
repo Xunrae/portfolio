@@ -20,7 +20,7 @@ export default function Entete({text, lang}) {
             <ul className="navPrincipale">
                 <li><a href="#top"><p>{text.acc}</p></a></li>
                 <li><a href="#conteneurProjets"><p>{text.pro}</p></a></li>
-                <li><a href="#foot"><p>{text.plu}</p></a></li>
+                <li><a href="#sites"><p>{text.plu}</p></a></li>
             </ul>
             <ul className="langue">
                 {etatLangEn}

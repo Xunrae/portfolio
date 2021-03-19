@@ -1,0 +1,202 @@
+.Page{
+    .imgFixed{
+        position:absolute;
+        z-index: -10;
+        opacity: 0.5;
+        transition: all 0.5s;
+    }
+
+    #bubbleImg{
+        top:30%;
+    }
+
+    #bubbleImg2{
+        top:150%;
+        right:5%;
+    }
+
+    #bubbleImg3{
+        top:240%;
+        left:5%;
+    }
+    
+    #cImg{
+        top:100%;
+    }
+    
+    #htmlImg{
+        top:280%;
+        left:1%;
+    }
+    
+    #jsImg{
+        top:180%;
+        left: 2%;
+    }
+    
+    #reactImg{
+        top:200%;
+        right: 5%;
+    }
+    
+    #unityImg{
+        top:120%;
+        right: 2%;
+    }
+    
+    #triskel1{
+        top:80%;
+        right: 8%;
+        opacity:1;
+    }
+    
+    #triskel2{
+        top:150%;
+        left: 10%;
+        opacity:1;
+    }
+    
+    #triskel3{
+        top:235%;
+        right: 10%;
+        opacity:1;
+    }
+    
+    #flower1{
+        top:275%;
+        right: 17%;
+    }
+    
+    #flower2{
+        top:20%;
+    }
+    
+    #flower22{
+        top:80%;
+        left:20%;
+    }
+
+    #visualImg{
+        top:215%;
+        left: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 1430px){
+    .Page{
+        #bubbleImg3{
+            top:200%;
+            left:5%;
+        }
+        
+        #htmlImg{
+            top:230%;
+            left:1%;
+        }
+        
+        #triskel3{
+            top:185%;
+            right: 10%;
+            opacity:1;
+        }
+        
+        #flower1{
+            top:230%;
+            right: 17%;
+        }
+        
+        #flower2{
+            top:20%;
+        }
+        
+        #flower22{
+            top:80%;
+            left:20%;
+        }
+    
+        #visualImg{
+            top:190%;
+            left: 5%;
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .Page{
+        #bubbleImg{
+            top:35%;
+        }
+    
+        #bubbleImg2{
+            top:155%;
+            right:5%;
+        }
+    
+        #bubbleImg3{
+            top:255%;
+            left:0%;
+        }
+        
+        #cImg{
+            top:110%;
+        }
+        
+        #htmlImg{
+            top:310%;
+            left:1%;
+        }
+        
+        #jsImg{
+            top:185%;
+            left: 2%;
+        }
+        
+        #reactImg{
+            top:200%;
+            right: 5%;
+        }
+        
+        #unityImg{
+            top:130%;
+            right: 2%;
+        }
+        
+        #triskel1{
+            top:85%;
+            right: 0%;
+            opacity:1;
+        }
+        
+        #triskel2{
+            top:155%;
+            left: 0%;
+            opacity:1;
+        }
+        
+        #triskel3{
+            top:235%;
+            right: 0%;
+            opacity:1;
+        }
+        
+        #flower1{
+            top:310%;
+            right: 7%;
+        }
+        
+        #flower2{
+            top:20%;
+        }
+        
+        #flower22{
+            top:80%;
+            left:20%;
+        }
+    
+        #visualImg{
+            top:215%;
+            left: 5%;
+        }
+    }
+}

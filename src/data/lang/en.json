@@ -1,9 +1,12 @@
 {
     "acc": "Home",
-    "pro": "Projects",
-    "plu": "More",
+    "pro": "Games",
+    "plu": "Websites",
     "ban": "Programmer/Integrator banner",
-    "desc": "",
+    "cont": "My contribution :",
     "jeu": "Games",
-    "sit": "Websites"
+    "sit": "Websites",
+    "git": "Project's GitHub page",
+    "link": "Link to the project",
+    "exe": "Download the executable"
 }

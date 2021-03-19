@@ -6,10 +6,11 @@
 
     h2{
         margin: 20px 0 20px;
-        padding: 5px 0;
+        padding: 5px 0 10px;
         border-bottom: 5px solid #00A37D;
         border-top: 5px solid #00A37D;
         border-radius: 20%;
+        background-color: #000;
     }
 
     ul{
@@ -19,5 +20,14 @@
         justify-content: space-evenly;
         margin:0;
         padding:0;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .ListeProjets{
+        h2{
+            font-size: 1.1em;
+        }
     }
 }

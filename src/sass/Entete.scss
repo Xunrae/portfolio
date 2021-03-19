@@ -25,6 +25,7 @@
         display: flex;
         margin: 0 auto;
         font-size: 1.2em;
+        font-family: texturina;
 
         li{
             cursor:pointer;
@@ -75,11 +76,17 @@
 }
 @media screen and (max-width: 700px){
     .Entete{
-            .langue{
-                position:absolute;
-                bottom: 0;
-                right: 0;
-                font-size: 0.6em;
-            }
+        height: 20px;
+
+        .navPrincipale{
+            font-size: 0.9em;
         }
+
+        .langue{
+            position:absolute;
+            bottom: 0;
+            right: 0;
+            font-size: 0.6em;
+        }
+    }
 }

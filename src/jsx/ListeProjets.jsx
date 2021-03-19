@@ -11,16 +11,40 @@ export default function ListeProjets({text, lang}){
                 <ul className="jeux">
                     {
                         tabProjetsJeu.map((proj)=>
-                            <Projet key={proj.id} id={proj.id} nomFr={proj.nomFr} nomEn={proj.nomEn} descFr={proj.descriptFr} descEn={proj.descriptEn} url={proj.url} lang={lang} />
+                            <Projet key={proj.id}
+                            id={proj.id}
+                            nomFr={proj.nomFr}
+                            nomEn={proj.nomEn}
+                            contribFr={proj.contribFr}
+                            contribEn={proj.contribEn}
+                            descFr={proj.descriptFr}
+                            descEn={proj.descriptEn}
+                            url={proj.url}
+                            text={text}
+                            lang={lang}
+                            git={proj.git}
+                            build={proj.build} />
                         )
                     }
                 </ul>
                 
                 <h2>{text.sit}</h2>
-                <ul className="sites">
+                <ul className="sites" id="sites">
                     {
                         tabProjetsWeb.map((prow) => 
-                            <Projet key={prow.id} id={prow.id} nomFr={prow.nomFr} nomEn={prow.nomEn} descFr={prow.descriptFr} descEn={prow.descriptEn} url={prow.url} lang={lang}/>
+                            <Projet key={prow.id}
+                            id={prow.id}
+                            nomFr={prow.nomFr}
+                            nomEn={prow.nomEn}
+                            contribFr={prow.contribFr}
+                            contribEn={prow.contribEn}
+                            descFr={prow.descriptFr}
+                            descEn={prow.descriptEn}
+                            url={prow.url}
+                            text={text}
+                            lang={lang}
+                            git={prow.git}
+                            build={prow.build} />
                         )
                     }
                 </ul>
