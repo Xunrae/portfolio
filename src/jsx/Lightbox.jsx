@@ -6,7 +6,7 @@ export default function Lightbox({text, lang}){
     return(
         <div id="Lightbox" className="LightboxInactive" data-gittext="" data-linktext="" data-linkbuild="">
             <div className="imageComposant">
-                <button onClick={changeClass}><CloseIcon /></button>
+                <button onClick={changeClass}><CloseIcon className="closeIcon" /></button>
                 <img id="lightboxImg" src="img/proj0001.webp" alt="afasf"/>
                 <h3 id="lightboxNomProjet">A</h3>
             </div>
