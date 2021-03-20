@@ -1,11 +1,12 @@
 import '../sass/Lightbox.scss';
+import CloseIcon from '@material-ui/icons/Close';
 
 export default function Lightbox({text, lang}){
 
     return(
         <div id="Lightbox" className="LightboxInactive" data-gittext="" data-linktext="" data-linkbuild="">
             <div className="imageComposant">
-                <button onClick={changeClass}>X</button>
+                <button onClick={changeClass}><CloseIcon /></button>
                 <img id="lightboxImg" src="img/proj0001.webp" alt="afasf"/>
                 <h3 id="lightboxNomProjet">A</h3>
             </div>
