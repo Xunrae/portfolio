@@ -3,13 +3,13 @@
         "id": "proj0001",
         "nomFr": "Toxic City",
         "nomEn": "Toxic City",
-        "contribFr": "Gestion, mécaniques de jeu, art pixelisé, intégration",
-        "contribEn": "Management, game mechanics, pixel art, integration",
+        "contribFr": "Gestion, mécaniques de jeu, C#, art pixelisé, intégration",
+        "contribEn": "Management, game mechanics, C#, pixel art, integration",
         "descriptFr": "Projet dans lequel j'ai appris le travail de directeur technique et à avoir une vision globale d'un projet de jeu. J'ai appris à travailler avec Trello pour distribuer les tâches et à développer les mécaniques pour un RPG tour-par-tour.",
         "descriptEn": "In this project, I learned the rudiments of a technical director's work and to have a good global vision of a video game project. I also learned to work with Trello to distribute tasks, and learned how to make the mechanics for a turn-by-turn RPG.",
         "url": "https://toxiccity.netlify.app",
         "git": "https://github.com/Xunrae/ToxicCodes",
-        "build": ""
+        "build": "https://drive.google.com/file/d/1_3g0D9p8v5Ko9Xgd4P2j4EsorQE8xjl-/view?usp=sharing"
     },
     {
         "id": "proj0002",
@@ -21,12 +21,12 @@
         "descriptEn": "Game made for the GameJam of Valleyfield in january 2021. This project made me get a better grip on my time management and made me accept to compromise on tasks to respect the deadlines. I also learned how to make a 2.5D game in Unity and how to change shaders to allow sprites to have shadows.",
         "url": "https://csharkspuppetmaster.netlify.app",
         "git": "",
-        "build": ""
+        "build": "https://drive.google.com/file/d/1SqT8uvD3z6Cca1z0NlarjPrPwepUp5Si/view?usp=sharing"
     },
     {
         "id": "proj0003",
-        "nomFr": "Projet RV",
-        "nomEn": "VR project",
+        "nomFr": "Projet de réalité virtuelle",
+        "nomEn": "Virtual reality project",
         "contribFr": "Mécaniques de jeu, C#, intégration",
         "contribEn": "Game mechanics, C#, integration",
         "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity. Lien à venir!",

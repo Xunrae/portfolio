@@ -40,6 +40,7 @@ export default function Projet({id, nomFr, nomEn, contribFr, contribEn, descFr, 
         description.innerHTML = descript;
         urlGit.href = git;
         urlProjet.href = url;
+        urlBuild.href = build;
 
         lightbox.dataset.gittext = urlGit.innerHTML;
         lightbox.dataset.linktext = urlProjet.innerHTML;

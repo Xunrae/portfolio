@@ -16,7 +16,7 @@
         "nomFr": "Manabu",
         "nomEn": "Manabu",
         "contribFr": "Mécaniques principales, html, js, css, Phaser",
-        "contribEn": "Principal mechanics, html, js, css, Phaser",
+        "contribEn": "Main mechanics, html, js, css, Phaser",
         "descriptFr": "Manabu est une application en ligne pour apprendre à lire les hiraganas japonais. Pour ce projet, j'ai appris à utiliser la librairie Phaser pour créer un jeu sur une page web et à créer les mecaniques de base pour un questionnaire intéractif. Cette expérience m'aura rendu plus confiant pour utiliser des librairies de code et a contribué à améliorer ma vision globale des tâches à accomplir dans un projet.",
         "descriptEn": "Manabu is a web application made to learn japanese hiraganas. For this project, I learned to use the Phaser library to make a game on a web page and create the basic mechanics for an interactive quiz. This experience made me more confident with the use of external code libraries and contributed to improve my global vision of tasks to accomplish in a project.",
         "url": "https://manabu.netlify.app/",

@@ -4,8 +4,8 @@ export default function Lightbox({text, lang}){
 
     return(
         <div id="Lightbox" className="LightboxInactive" data-gittext="" data-linktext="" data-linkbuild="">
-            <button onClick={changeClass}>X</button>
             <div className="imageComposant">
+                <button onClick={changeClass}>X</button>
                 <img id="lightboxImg" src="img/proj0001.webp" alt="afasf"/>
                 <h3 id="lightboxNomProjet">A</h3>
             </div>
@@ -21,11 +21,12 @@ export default function Lightbox({text, lang}){
 }
 
 function changeClass(){
-    if(document.getElementById('Lightbox').classList.contains('LightboxActive')){
-        document.getElementById('Lightbox').classList.remove('LightboxActive');
-        document.getElementById('Lightbox').classList.add('LightboxInactive');
-        document.getElementById('lightboxGit').innerHTML = document.getElementById('Lightbox').dataset.gittext;
-        document.getElementById('lightboxUrl').innerHTML = document.getElementById('Lightbox').dataset.linktext;
-        document.getElementById('lightboxBuild').innerHTML = document.getElementById('Lightbox').dataset.buildtext;
+    const lightbox = document.getElementById('Lightbox');
+    if(lightbox.classList.contains('LightboxActive')){
+        lightbox.classList.remove('LightboxActive');
+        lightbox.classList.add('LightboxInactive');
+        document.getElementById('lightboxGit').innerHTML = lightbox.dataset.gittext;
+        document.getElementById('lightboxUrl').innerHTML = lightbox.dataset.linktext;
+        document.getElementById('lightboxBuild').innerHTML = lightbox.dataset.buildtext;
     }
 }
