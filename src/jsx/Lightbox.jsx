@@ -4,21 +4,24 @@ import CloseIcon from '@material-ui/icons/Close';
 export default function Lightbox({text, lang}){
 
     return(
-        <div id="Lightbox" className="LightboxInactive" data-gittext="" data-linktext="" data-linkbuild="">
-            <div className="imageComposant">
-                <button onClick={changeClass}><CloseIcon className="closeIcon" /></button>
-                <img id="lightboxImg" src="img/proj0001.webp" alt="afasf"/>
-                <h3 id="lightboxNomProjet">A</h3>
-            </div>
+        <div id="Lightbox" className="LightboxInactive" data-gittext="" data-linktext="" data-linkbuild="" onClick={changeClass}>
+            <div className="contenuLightbox">
+                <div className="imageComposant">
+                    <button onClick={changeClass}><CloseIcon className="closeIcon" /></button>
+                    <img id="lightboxImg" src="img/proj0001.webp" alt="afasf"/>
+                    <h3 id="lightboxNomProjet">A</h3>
+                </div>
 
-            <div className="descriptLightbox">
-                <p className="descript" id="lightboxDesc"></p>
-                <a className="git" id="lightboxGit" target="_blank" href="#Lightbox">{text.git}</a>
-                <a className="url" id="lightboxUrl" target="_blank" href="#Lightbox">{text.link}</a>
-                <a className="build" id="lightboxBuild" target="_blank" href="#Lightbox">{text.exe}</a>
+                <div className="descriptLightbox">
+                    <p className="descript" id="lightboxDesc"></p>
+                    <a className="git" id="lightboxGit" target="_blank" href="#Lightbox">{text.git}</a>
+                    <a className="url" id="lightboxUrl" target="_blank" href="#Lightbox">{text.link}</a>
+                    <a className="build" id="lightboxBuild" target="_blank" href="#Lightbox">{text.exe}</a>
+                </div>
             </div>
         </div>
     );
+    
 }
 
 function changeClass(){
