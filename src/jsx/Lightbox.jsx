@@ -8,7 +8,7 @@ export default function Lightbox({text, lang}){
             <div className="contenuLightbox">
                 <div className="imageComposant">
                     <button onClick={changeClass}><CloseIcon className="closeIcon" /></button>
-                    <img id="lightboxImg" src="img/proj0001.webp" alt="afasf"/>
+                    <video id="lightboxVid" controls src="vid/proj0001.mp4" poster="img/proj0001.webp"/>
                     <h3 id="lightboxNomProjet">A</h3>
                 </div>
 
@@ -26,11 +26,15 @@ export default function Lightbox({text, lang}){
 
 function changeClass(){
     const lightbox = document.getElementById('Lightbox');
+
     if(lightbox.classList.contains('LightboxActive')){
         lightbox.classList.remove('LightboxActive');
         lightbox.classList.add('LightboxInactive');
+
         document.getElementById('lightboxGit').innerHTML = lightbox.dataset.gittext;
         document.getElementById('lightboxUrl').innerHTML = lightbox.dataset.linktext;
         document.getElementById('lightboxBuild').innerHTML = lightbox.dataset.buildtext;
+        document.getElementById('lightboxVid').pause();
+
     }
 }

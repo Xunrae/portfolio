@@ -23,18 +23,20 @@ export default function Projet({id, nomFr, nomEn, contribFr, contribEn, descFr, 
 
     function lightboxAppear(){
         const lightbox = document.getElementById('Lightbox');
-        const img = document.getElementById('lightboxImg');
+        const vid = document.getElementById('lightboxVid');
         const nomLightbox = document.getElementById('lightboxNomProjet');
         const description = document.getElementById('lightboxDesc');
         const urlGit = document.getElementById('lightboxGit');
         const urlProjet = document.getElementById('lightboxUrl');
         const urlBuild = document.getElementById('lightboxBuild');
 
-        const path =`img/${id}.webp`;
+        const pathImg =`img/${id}.webp`;
+        const pathVid = `vid/${id}.mp4`;
         const nomLb = nom;
         const descript = desc;
         
-        img.src = path;
+        vid.poster = pathImg;
+        vid.src = pathVid;
 
         nomLightbox.innerHTML = nomLb;
         description.innerHTML = descript;
