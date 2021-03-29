@@ -7,6 +7,7 @@ export default function Entete({text, lang}) {
     var etatLangEn;
     var etatLangFr;
 
+    //changer le bouton de langue qui est allumé selon l'état de la langue
     if(lang==='fr'){
         etatLangEn = <li><button id="En" onClick={langEn} >EN</button></li>;
         etatLangFr = <li><button id="Fr" onClick={langFr} className='lit' >FR</button></li>;
@@ -30,10 +31,19 @@ export default function Entete({text, lang}) {
     );
 }
 
+
+/**
+ * fonctions de changement de langue
+ * param : none
+ * return : none
+ */
+
+ //plante un cookie 'en' et reload la page
 function langEn(){
     localStorage.setItem('lang', 'en')
     window.location.reload(false);
 }
+//plante un cookie 'fr' et reload la page
 function langFr(){
     localStorage.setItem('lang', 'fr');
     window.location.reload(false);

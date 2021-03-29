@@ -21,11 +21,12 @@ export default function Page() {
   var textJson;
 
   
-
+  //si le localStorage contient le cookie lang, va chercher le fichier de texte approprié
   if(localStorage.getItem('lang')){
     lang = localStorage.getItem('lang');
     textJson = require('../data/lang/'+lang+'.json');
   }
+  //par defaut, la langue est en francais
   else{
     lang = 'fr'
     textJson = require('../data/lang/fr.json');
@@ -38,6 +39,8 @@ export default function Page() {
       <Banniere text={textJson} lang={lang} />
       <ConteneurProjets text={textJson} lang={lang} />
       <Footer />
+
+      {/* toutes les images sont placées par css */}
       <img className="imgFixed" id="bubbleImg" src={bubbleImg} alt="bubble"/>
       <img className="imgFixed" id="bubbleImg2" src={bubbleImg} alt="bubble"/>
       <img className="imgFixed" id="bubbleImg3" src={bubbleImg} alt="bubble"/>

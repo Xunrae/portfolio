@@ -1,8 +1,6 @@
 import '../sass/Projet.scss';
 
 export default function Projet({id, nomFr, nomEn, contribFr, contribEn, descFr, descEn, url, text, lang, git, build}){
-
-    //const targetBlank = (url) => url!=='' ? '_blank' : '';
     let nom;
     let desc;
     let contrib;
@@ -19,9 +17,13 @@ export default function Projet({id, nomFr, nomEn, contribFr, contribEn, descFr, 
         contrib = contribEn;
     }
 
-    //const nomc = lang=> (lang ==='fr') ? nomFr : nomEn;
-
+/**
+ * fonction lightboxAppear : fonction qui change le contenu du lightbox et son affichage
+ * param : none
+ * return: none
+ */
     function lightboxAppear(){
+        //les elements à changer
         const lightbox = document.getElementById('Lightbox');
         const vid = document.getElementById('lightboxVid');
         const nomLightbox = document.getElementById('lightboxNomProjet');
@@ -30,24 +32,32 @@ export default function Projet({id, nomFr, nomEn, contribFr, contribEn, descFr, 
         const urlProjet = document.getElementById('lightboxUrl');
         const urlBuild = document.getElementById('lightboxBuild');
 
+        //chemins pour image/video
         const pathImg =`img/${id}.webp`;
         const pathVid = `vid/${id}.mp4`;
+
+        //nom et description de la cible
         const nomLb = nom;
         const descript = desc;
         
+        //image et source de la video
         vid.poster = pathImg;
         vid.src = pathVid;
 
+        //changer innerHtlml et href
         nomLightbox.innerHTML = nomLb;
         description.innerHTML = descript;
         urlGit.href = git;
         urlProjet.href = url;
         urlBuild.href = build;
 
+        //changer les datasets du lightbox
         lightbox.dataset.gittext = urlGit.innerHTML;
         lightbox.dataset.linktext = urlProjet.innerHTML;
         lightbox.dataset.buildtext = urlBuild.innerHTML;
 
+        //si il n'y a pas de lien pour git, une fenetre de projet dans le browser ou un build
+        //vider l'affichage du innerHTML
         if(git===""){
             urlGit.innerHTML = "";
         }
@@ -60,6 +70,7 @@ export default function Projet({id, nomFr, nomEn, contribFr, contribEn, descFr, 
             urlBuild.innerHTML = "";
         }
 
+        //changer classes du lightbox
         lightbox.classList.remove('LightboxInactive');
         lightbox.classList.add('LightboxActive');
     }

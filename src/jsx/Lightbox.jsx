@@ -23,7 +23,11 @@ export default function Lightbox({text, lang}){
     );
     
 }
-
+/**
+ * fonction changeClass : fonction qui change la classe du lightbox pour le fermer
+ * param : none
+ * return : none
+ */
 function changeClass(){
     const lightbox = document.getElementById('Lightbox');
 
@@ -31,9 +35,12 @@ function changeClass(){
         lightbox.classList.remove('LightboxActive');
         lightbox.classList.add('LightboxInactive');
 
+        //change les innerHTML pour leurs valeurs par defaut
         document.getElementById('lightboxGit').innerHTML = lightbox.dataset.gittext;
         document.getElementById('lightboxUrl').innerHTML = lightbox.dataset.linktext;
         document.getElementById('lightboxBuild').innerHTML = lightbox.dataset.buildtext;
+
+        //pause la video si elle jou encore
         document.getElementById('lightboxVid').pause();
 
     }

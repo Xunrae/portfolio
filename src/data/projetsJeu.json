@@ -5,8 +5,8 @@
         "nomEn": "Toxic City",
         "contribFr": "Gestion, mécaniques de jeu, C#, art pixelisé, intégration",
         "contribEn": "Management, game mechanics, C#, pixel art, integration",
-        "descriptFr": "Projet dans lequel j'ai appris le travail de directeur technique et à avoir une vision globale d'un projet de jeu. J'ai appris à travailler avec Trello pour distribuer les tâches et à développer les mécaniques pour un RPG tour-par-tour.",
-        "descriptEn": "In this project, I learned the rudiments of a technical director's work and to have a good global vision of a video game project. I also learned to work with Trello to distribute tasks, and learned how to make the mechanics for a turn-by-turn RPG.",
+        "descriptFr": "Projet dans lequel j'ai appris le travail de directeur technique et à avoir une vision globale d'un projet de jeu. J'ai appris à travailler avec Trello pour distribuer les tâches et j'ai appris à développer les mécaniques pour un RPG tour-par-tour.",
+        "descriptEn": "In this project, I learned the rudiments of a chief of technical operations' work and to have a good global vision of a video game project. I also learned to work with Trello to distribute tasks, and learned how to make the mechanics for a turn-by-turn RPG.",
         "url": "https://toxiccity.netlify.app",
         "git": "https://github.com/Xunrae/ToxicCodes",
         "build": "https://drive.google.com/file/d/1_3g0D9p8v5Ko9Xgd4P2j4EsorQE8xjl-/view?usp=sharing"
@@ -29,11 +29,11 @@
         "nomEn": "Virtual reality project",
         "contribFr": "Mécaniques de jeu, C#, intégration",
         "contribEn": "Game mechanics, C#, integration",
-        "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity. Lien à venir!",
-        "descriptEn": "Interactive environment in which I learned the basics of making a VR game in Unity. Link coming soon!",
+        "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity.",
+        "descriptEn": "Interactive environment in which I learned the basics of making a VR game in Unity.",
         "url": "",
         "git": "",
-        "build": ""
+        "build": "https://drive.google.com/file/d/1g6QRmzxCYlZ-ghiA2KWUwWMFVKlFu16U/view?usp=sharing"
     },
     {
         "id": "proj0004",
@@ -53,7 +53,7 @@
         "nomEn": "Demonic Exile",
         "contribFr": "Mécaniques de jeu, C#, intégration",
         "contribEn": "Game mechanics, C#, integration",
-        "descriptFr": "Projet dans lequel j'ai appris à intégrer divers éléments dans Unity, assembler, lier et programmer des animations, utiliser les mécaniques de Unity (colliders, gravité, contraintes, etc), changer de scènes, instantier des objets, ajuster des variables globales, afficher un UI, etc. Cette expérience m'a donné beaucoup d'outils nécessaires au métier d'intégrateur en jeux 2D.",
+        "descriptFr": "Projet dans lequel j'ai appris à intégrer divers éléments dans Unity, assembler, lier et programmer des animations, utiliser les mécaniques de Unity, changer de scènes, instantier des objets, ajuster des variables globales, afficher un UI, etc. Cette expérience m'a donné beaucoup d'outils nécessaires au métier d'intégrateur en jeux 2D.",
         "descriptEn": "Project in which I learned to integrate diverse elements in Unity, assemble, link and program animations, use Unity's built-in mechanics, change scenes, instantiate objects, adjust global variables, show an UI, etc. This experience gave me alot of tools to become a 2D game integrator.",
         "url": "",
         "git": "https://github.com/Xunrae/demonicExile",
