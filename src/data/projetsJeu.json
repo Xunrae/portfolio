@@ -1,6 +1,30 @@
 [
     {
         "id": "proj0001",
+        "nomFr": "Mini-jeux Beam Me Up",
+        "nomEn": "Beam Me Up Minigames",
+        "contribFr": "Mécaniques de jeu, C#, intégration, VR",
+        "contribEn": "Game mechanics, C#, integration, VR",
+        "descriptFr": "Projet de stage dans lequel j'ai remodelé le mini-jeu de Pinball de desktop vers VR, créé le jeu de air hockey et créé la base du jeu de Shuffleboard.",
+        "descriptEn": "Internship project in which I remodeled a Pinball minigame from desktrop to VR, created a air hockey game and made the base mechanics for Shuffleboard.",
+        "url": "",
+        "git": "",
+        "build": ""
+    },
+    {
+        "id": "proj0002",
+        "nomFr": "Projet de réalité virtuelle",
+        "nomEn": "Virtual reality project",
+        "contribFr": "Mécaniques de jeu, C#, intégration, VR",
+        "contribEn": "Game mechanics, C#, integration, VR",
+        "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity.",
+        "descriptEn": "Interactive environment in which I learned the basics of making a VR game in Unity.",
+        "url": "",
+        "git": "https://github.com/xunrae/vrresearch",
+        "build": "https://drive.google.com/file/d/1g6QRmzxCYlZ-ghiA2KWUwWMFVKlFu16U/view?usp=sharing"
+    },
+    {
+        "id": "proj0003",
         "nomFr": "Toxic City",
         "nomEn": "Toxic City",
         "contribFr": "Gestion, mécaniques de jeu, C#, art pixelisé, intégration",
@@ -12,7 +36,7 @@
         "build": "https://drive.google.com/file/d/1_3g0D9p8v5Ko9Xgd4P2j4EsorQE8xjl-/view?usp=sharing"
     },
     {
-        "id": "proj0002",
+        "id": "proj0004",
         "nomFr": "Puppet Master",
         "nomEn": "Puppet Master",
         "contribFr": "Art pixelisé, intégration",
@@ -24,19 +48,7 @@
         "build": "https://drive.google.com/file/d/1SqT8uvD3z6Cca1z0NlarjPrPwepUp5Si/view?usp=sharing"
     },
     {
-        "id": "proj0003",
-        "nomFr": "Projet de réalité virtuelle",
-        "nomEn": "Virtual reality project",
-        "contribFr": "Mécaniques de jeu, C#, intégration",
-        "contribEn": "Game mechanics, C#, integration",
-        "descriptFr": "Environnement intéractif dans lequel j'ai appris les rudiments de la création d'un jeu en RV dans Unity.",
-        "descriptEn": "Interactive environment in which I learned the basics of making a VR game in Unity.",
-        "url": "",
-        "git": "https://github.com/xunrae/vrresearch",
-        "build": "https://drive.google.com/file/d/1g6QRmzxCYlZ-ghiA2KWUwWMFVKlFu16U/view?usp=sharing"
-    },
-    {
-        "id": "proj0004",
+        "id": "proj0005",
         "nomFr": "Helicoptère",
         "nomEn": "Helicopter",
         "contribFr": "Mécaniques de jeu, C#, intégration",
@@ -48,7 +60,7 @@
         "build": "https://drive.google.com/drive/folders/1foH_1QJC62TtO8LakX_TVt2B8Zamz0wz?usp=sharing"
     },
     {
-        "id": "proj0005",
+        "id": "proj0006",
         "nomFr": "Exile Démoniaque",
         "nomEn": "Demonic Exile",
         "contribFr": "Mécaniques de jeu, C#, intégration",
